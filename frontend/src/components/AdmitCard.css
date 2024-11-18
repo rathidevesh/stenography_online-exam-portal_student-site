@@ -1,0 +1,56 @@
+.dataCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    flex-direction: column;
+}
+
+.admitCardContainer {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.admitCardContainer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.admitCardContainer div {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admitCardContainer span {
+    font-size: 18px;
+    color: #555;
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btns button {
+    padding: 10px 15px;
+    background-color: #dce2e9;
+    color: rgb(174, 46, 46);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.btns button:hover {
+    background-color: #0056b3;
+}
